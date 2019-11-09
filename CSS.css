@@ -1,0 +1,159 @@
+html{
+	width: 100%;
+	font-family: Open Sans, Arial;
+	background-color: white;
+	margin:0;
+	padding:0;
+}
+.logo{
+	width:12%;
+	float: left;
+	margin-left: 5%;
+	border-image: repeating-linear-gradient(30deg, #4d9f0c, #9198e5, #4d9f0c 20px) 60;
+}
+.image_bts_sio{
+	width:50%;
+	margin-left: 15%;
+}
+#menu_navigation{
+	width:98%;
+	padding-top:8px;
+	padding-bottom: 8px;
+	text-align: center;
+	background-color:blue;
+	list-style: none;
+	border-style: inset;
+}
+nav ul li{
+	padding:15px;
+	display: inline-block;
+	list-style: none;
+	border-radius: 10% / 50%;
+}
+
+nav ul li a{
+	padding: 30px;
+	text-decoration: none;	
+	font-size: 1.3em;
+	font-weight: bold;
+	color: white;
+	border-radius: 10% / 50%;
+}
+
+nav ul li:hover{
+	background-color: green;
+	border-left-style: groove;
+}
+.en_cours{
+	background-color: #84C4F0;
+	border-radius: 50px;
+	padding: -30px;
+}
+
+/*Presentation de la page bts sio*/
+#presentation_bts{
+	width: 80%;
+	margin-left: 100px;
+	margin-top: 50px;
+	padding: 20px;
+	color: gray;
+	font-size: 0.9em;
+}
+#presentation_bts article{
+	margin-bottom:100px;
+}
+#presentation_bts h2{
+	text-align: center;
+	padding: 5px;
+	margin-left:150px;
+	background-color: #EEF1F3;
+	border-radius: 10% / 50%;
+}
+#presentation{
+	width: 58%;
+	margin: 30px;
+	padding: 20px;
+	color: gray;
+	font-size: 0.9em;
+}
+#presentation ul li article h1 h2 h3 {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#presentation ul li{
+	padding: 2px;
+}
+#presentation article{
+	padding-bottom: 2%;
+}
+#presentation article h1{
+	text-align: center;
+	font-size: 1.6em;
+	text-decoration: underline;
+}
+#presentation article h2{
+	text-align: center;
+	font-size: 1.3em
+	margin-top: 40px;
+}
+#presentation article h3{
+	text-align: center;
+	text-indent: 0;
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+/* Spec*/
+
+#specall {
+	text-align: center;
+}
+/*Différentes images du site*/
+.sroom{
+	width:100%;
+}
+#sisr{
+	width:100%;
+	position: right ;
+	top:35%;
+	right:3%;
+	border-image: url('/media/examples/border-diamonds.png') 30;
+}
+/*CSS des enseignements + référentiel*/
+
+.titre_tableaux{
+	text-align: center;
+	font-style: bold;
+	color: #2E3E84;
+	padding-top: 3%;
+}
+table{
+	margin-left: 5%;
+	color:white;
+	width:90%;
+	text-align: center;
+	border:solid 4px #84C4F0;
+	border-collapse: collapse;
+}
+th{
+	font-size: 1.3em;
+	padding:10px;
+	border:solid 2px #84C4F0;
+	background-color: #2E3E84;
+}
+td{
+	padding:10px;
+	border:solid 2px #84C4F0;
+	background-color: blue;
+}
+/*CSS du footer*/
+footer{
+	width:100%;
+	padding: 1px;
+	margin-top: 7%;
+	text-align:center;
+	background-color:#D1D5D8;
+	color:black;
+}
+
+
